@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta property="og:title" content="RackItUp - Step Up, Stay Ahead">
-	<meta property="og:description" content="RackItUp propels students to new heights, equipping them with the skills and confidence to thrive in the tech world. Our dynamic programs are designed to elevate your expertise, ensuring you stay ahead in your journey to a successful career.">
+	<meta property="og:description"
+		content="RackItUp propels students to new heights, equipping them with the skills and confidence to thrive in the tech world. Our dynamic programs are designed to elevate your expertise, ensuring you stay ahead in your journey to a successful career.">
 	<meta property="og:url" content="https://www.rackitup.tech/">
 	<meta property="og:image" content="https://www.rackitup.tech/assets/images/android-chrome-192x192.png">
 	<title>RackItUp - Step Up, Stay Ahead</title>
@@ -15,6 +16,8 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
 	<link rel="manifest" href="assets/images/site.webmanifest">
+	<link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 	<script>
 		tailwind.config = {
 			darkMode: 'class',
@@ -26,8 +29,8 @@
 							'50%': { transform: 'rotate(12deg)' },
 						},
 						cbounce: {
-							'0%, 100%': {transform: 'translateY(-35%)'},
-							'50%': {transform: 'translateY(0)'}
+							'0%, 100%': { transform: 'translateY(-35%)' },
+							'50%': { transform: 'translateY(0)' }
 						},
 					},
 					animation: {
@@ -41,26 +44,30 @@
 </head>
 
 <body>
-	<div class="h-screen flex flex-col justify-center items-center bg-gray-900 dark:bg-gradient-to-r from-blue-400 to-cyan-300">
-		<div class="absolute top-16  flex items-center justify-center text-gray-200 dark:text-white sm:text-5xl text-2xl">
+	<div
+		class="h-screen flex flex-col justify-center items-center bg-gray-900 dark:bg-gradient-to-r from-blue-400 to-cyan-300">
+		<div
+			class="absolute top-16  flex items-center justify-center text-gray-200 dark:text-white sm:text-5xl text-2xl">
 			<span class="text-yellow-500 font-semibold pr-2">We are</span>
 			<span class="text-rose-500 font-semibold pr-2">Launching</span>
 			<span class="text-yellow-500 font-semibold pr-2">Soon...</span>
 		</div>
-		<div class="absolute animate-[cbounce_4s_ease-in-out_infinite] z-10 w-full h-[30%] flex justify-center items-end bg-gray-900 dark:bg-gradient-to-r from-blue-400 to-cyan-300">
+		<div
+			class="absolute animate-[cbounce_4s_ease-in-out_infinite] z-10 w-full h-[30%] flex justify-center items-end bg-gray-900 dark:bg-gradient-to-r from-blue-400 to-cyan-300">
 			<!-- add in class of h1 for wiggle animate-[wiggle_1s_ease-in-out_infinite] -->
-			<h1 class="sm:text-9xl text-7xl font-extrabold text-indigo-500 font-mono">
+			<h1 class="text-container sm:text-9xl text-7xl font-extrabold font-mono">
 				RackItUp</h1>
 		</div>
-		<div class="absolute w-full h-[50%] flex items-end justify-center bg-gray-900 dark:bg-gradient-to-r from-blue-400 to-cyan-300">
+		<div
+			class="absolute w-full h-[50%] flex items-end justify-center bg-gray-900 dark:bg-gradient-to-r from-blue-400 to-cyan-300">
 			<span class="text-orange-50 font-semibold pr-2 text-3xl">Grab The Knowledge That Can Land You A Job</span>
 		</div>
 	</div>
 
 	<div class="bg-gray-900 dark:bg-gradient-to-r from-blue-400 to-cyan-300 font-sans leading-normal tracking-normal">
 
-		<!-- Features section -->
-		<section class="bg-gray-900 dark:bg-gradient-to-r from-blue-400 to-cyan-300 py-20">
+		<!-- Course section -->
+		<section class="bg-gray-900 dark:bg-gradient-to-r from-blue-400 to-cyan-300 py-20" style="cursor: pointer;">
 			<div class="container mx-auto px-4">
 				<div class="max-w-2xl mx-auto text-center">
 					<h2 class="text-7xl text-white font-bold mb-6">Checkout Our Upcoming Cohorts</h2>
@@ -70,38 +77,19 @@
 						mauris.
 					</p>
 				</div>
-				<div class="flex flex-wrap -mx-4 mt-12">
-					<div class="w-full md:w-1/3 px-4 mb-8">
-						<div class="rounded-md bg-white shadow-md p-8">
-							<div class="text-4xl font-bold text-purple-600 mb-4">01</div>
-							<h3 class="text-2xl font-bold mb-4">Master in C Cohort 1.0</h3>
-							<p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-								nec
-								orci quis justo aliquam euismod eget a leo.</p>
-						</div>
-					</div>
-					<div class="w-full md:w-1/3 px-4 mb-8">
-						<div class="rounded-md bg-white shadow-md p-8">
-							<div class="text-4xl font-bold text-purple-600 mb-4">02</div>
-							<h3 class="text-2xl font-bold mb-4">Feature 2</h3>
-							<p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-								nec
-								orci quis justo aliquam euismod eget a leo.</p>
-						</div>
-					</div>
-					<div class="w-full md:w-1/3 px-4 mb-8">
-						<div class="rounded-md bg-white shadow-md p-8">
-							<div class="text-4xl font-bold text-purple-600 mb-4">03</div>
-							<h3 class="text-2xl font-bold mb-4">Feature 3</h3>
-							<p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-								nec
-								orci quis justo aliquam euismod eget a leo.</p>
-						</div>
-					</div>
+				<div class="flex flex-wrap -mx-4 mt-12" id="course-container">
+					<!-- Course will be shown dynamically here -->
 				</div>
 			</div>
 		</section>
 	</div>
+
+	<!-- Popup Starts -->
+	<!-- Main modal -->
+	<div id="modals-container"></div>
+	<!-- Popup Ends -->
+	<script src="assets/js/index.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
 </body>
 
 </html>
